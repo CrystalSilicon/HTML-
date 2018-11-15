@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>The Matrix</title>
+    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/The Matrix.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <ul class="nav nav-tabs">
+        <li><a href="Marvel.html">Marvel</a></li>
+        <li><a href="I_Robot.html">I, Robot</a></li>
+        <li><a href="Her.html">Her</a></li>
+        <li class="active"><a href="The Matrix.html">The Matrix</a></li>
+    </ul>
+    <ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li class="active">The Matrix</li>
+    </ul>
+    <div id="plotModal">
+        <button id="movieTitle" class="btn-link" data-toggle="modal" data-target="#plot">The Matrix</button>
+        <div class="modal fade" id="plot" tabindex="-1" role="dialog" aria-labelledby="plotLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                        <h4 class="modal-title" id="plotLabel">剧情简介</h4>
+                    </div>
+                    <div class="modal-body">
+                        <p>
+                            在矩阵中生活的一名年轻的网络黑客尼奥发现，看似正常的现实世界实际上似乎被某种力量控制着，尼奥便在网络上调查此事。
+                            而在现实中生活的人类反抗组织的船长墨菲斯，也一直在矩阵中寻找传说的救世主，就这样在人类反抗组织成员崔妮蒂的指引下，两人见面了，
+                            尼奥也在墨菲斯的指引下，回到了真正的现实中，逃离了矩阵，这才了解到，原来他一直活在虚拟世界当中 。
+                        </p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="posterPart">
+        <div id="posterCarousel">
+            <div id="poster" class="carousel slide">
+                <ol class="carousel-indicators">
+                    <li data-target="#poster" data-slide-to="0" class="active"></li>
+                    <li data-target="#poster" data-slide-to="1"></li>
+                    <li data-target="#poster" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="image/The_Matrix/The Matrix1.jpeg" alt="First poster"/>
+                    </div>
+                    <div class="item">
+                        <img src="image/The_Matrix/The Matrix2.jpg" alt="Second poster"/>
+                    </div>
+                    <div class="item">
+                        <img src="image/The_Matrix/The Matrix3.jpg" alt="Third poster"/>
+                    </div>
+                </div>
+                <div>
+                    <a class="left carousel-control" href="#poster" role="button" data-slide="prev">
+		                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+		                <span class="sr-only">Previous</span>
+	                </a>
+	                <a class="right carousel-control" href="#poster" role="button" data-slide="next">
+		                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+		                <span class="sr-only">Next</span>
+	                </a>
+                </div>
+            </div>
+        </div>
+        <div id="grid">
+            <img src="image/The_Matrix/grid.png"/>
+        </div>
+    </div>
+    <div id="textPart">
+        <div id="AITitlePart">
+            <div id="AITitleLogo">
+                <img src="image/The_Matrix/AITitle.png"/>
+            </div>
+            <div id="AITitle">
+                <h2>AI元素——机器学习与深度学习</h2>
+            </div>
+        </div>
+        <div id="specificPart">
+            <div id="concept">
+                <h3>概念简介</h3>
+                <ul>
+                    <li>
+                        <h4>人工神经网络（Artificial Neural Networks）</h4>
+                        <p>
+                            人工神经网络（Artificial Neural Networks，简写为ANNs）也简称为神经网络（NNs）或称作连接模型（Connection Model），
+                            它是一种模仿动物神经网络行为特征，进行分布式并行信息处理的算法数学模型。这种网络依靠系统的复杂程度，
+                            通过调整内部大量节点之间相互连接的关系，从而达到处理信息的目的。
+                        </p>
+                        <li>
+                            <h4>机器学习（Machine Learning）</h4>
+                            <p>
+                                机器学习(Machine Learning, ML)是一门多领域交叉学科，涉及概率论、统计学、逼近论、凸分析、算法复杂度理论等多门学科。
+                                专门研究计算机怎样模拟或实现人类的学习行为，以获取新的知识或技能，重新组织已有的知识结构使之不断改善自身的性能。
+                                它是人工智能的核心，是使计算机具有智能的根本途径，其应用遍及人工智能的各个领域，它主要使用归纳、综合而不是演绎。
+                            </p>
+                        </li>
+                    <li>
+                        <h4>深度学习（Deep Learning）</h4>
+                        <p>
+                            深度学习的概念源于人工神经网络的研究。含多隐层的多层感知器就是一种深度学习结构。
+                            深度学习通过组合低层特征形成更加抽象的高层表示属性类别或特征，以发现数据的分布式特征表示。
+                            深度学习是机器学习研究中的一个新的领域，其动机在于建立、模拟人脑进行分析学习的神经网络，
+                            它模仿人脑的机制来解释数据，例如图像，声音和文本。
+                        </p>
+                    </li>
+                </ul>
+            </div>
+            <div id="picture1">
+                <img src="image/The_Matrix/picture1.png"/>
+            </div>
+            <div id="picture2">
+                <img src="image/The_Matrix/picture2.png"/>
+            </div>
+            <div id="digitalRain">
+                <h3>经典黑科技展示——“数据雨”</h3>
+                <img src="image/The_Matrix/数据雨.gif" alt="数据雨"/>
+            </div>
+            <div id="machineLearningDemo">
+                <div id="machineLearningDemoTitle">
+                    <h3>基于JavaScript的机器学习演示</h3>
+                </div>
+                <ul>
+                    <li>
+                        <div class="demoTitle">
+                            <h4>Brain</h4>
+                        </div>
+                        <div class="demoImage">
+                            <img src="image/The_Matrix/Brain.JPEG"/>
+                        </div>
+                        <div class="demoIntro">
+                            <p>
+                                Brain是一个库，可以让用户轻松创建神经网络，然后根据输入/输出数据进行训练。
+                                虽然可以直接加载到网页上，但训练会占用大量资源，因此最好在Node.js环境中运行。
+                                在他们的网站上有一个演示，可以通过训练来识别颜色对比度。
+                            </p>
+                            <p>项目地址：
+                                <a href="https://github.com/harthur-org/brain.js">https://github.com/harthur-org/brain.js</a>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="demoTitle">
+                            <h4>Deep playground</h4>
+                        </div>
+                        <div class="demoImage">
+                            <img src="image/The_Matrix/Deep playground.JPEG"/>
+                        </div>
+                        <div class="demoIntro">
+                            <p>
+                                这是一个学习App，让用户玩转神经网络并探索其不同的组件。
+                                它有一个很好的UI界面，允许用户控制输入数据、神经元数量，以及使用哪种算法，或在最终结果中反映各种其他的指标。
+                                App中还可以挖掘许多深层的东西学习——代码是开源的，用TypeScript编写，很好查阅，用户可以获取更多资源和用途。
+                            </p>
+                            <p>项目地址：
+                                <a href="https://github.com/tensorflow/playground">https://github.com/tensorflow/playground</a>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="demoTitle">
+                            <h4>FlappyLearning</h4>
+                        </div>
+                        <div class="demoImage">
+                            <img src="image/The_Matrix/FlappyLearning.JPEG"/>
+                        </div>
+                        <div class="demoIntro">
+                            <p>
+                                FlappyLearning是一个JavaScript项目，用大约800行未命名的代码创建，并在一个有趣的演示中实现的机器学习库，
+                                用户可以像一个行家一样玩转Flappy Bird。在这个库中使用的AI技术被称为Neuroevolution，
+                                其应用算法的灵感来自于自然界中发现的神经系统，从每次迭代的成功或失败中动态学习。
+                                该演示非常容易运行，只需在浏览器中打开index.html即可。
+                            </p>
+                            <p>项目地址：
+                                <a href="https://github.com/xviniette/FlappyLearning">https://github.com/xviniette/FlappyLearning</a>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="demoTitle">
+                            <h4>Machine_learning</h4>
+                        </div>
+                        <div class="demoImage">
+                            <img src="image/The_Matrix/Machine_learning.JPEG"/>
+                        </div>
+                        <div class="demoIntro">
+                            <p>
+                                Machine_learning允许使用JavaScript设置和训练神经网络。在Node.js和客户端都能简便安装，
+                                并且具有非常干净的API，适用于所有技能级别的开发人员。Machine_learning提供了许多实现流行算法的演示，
+                                帮助用户了解核心机器学习原理。
+                            </p>
+                            <p>项目地址：
+                                <a href="https://github.com/junku901/machine_learning">https://github.com/junku901/machine_learning</a>
+                            </p>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="demoTitle">
+                            <h4>DeepForge</h4>
+                        </div>
+                        <div class="demoImage">
+                            <img src="image/The_Matrix/DeepForge.JPEG"/>
+                        </div>
+                        <div class="demoIntro">
+                            <p>
+                                DeepForge是一个用户界面友好的开发环境，用于深度学习。
+                                它允许用户使用简单的图形界面设计神经网络，支持远程机器上的培训模型，并内置版本控制。
+                                该项目在浏览器中运行，基于Node.js和MongoDB，其安装过程对大多数Web开发人员来说非常简单。
+                            </p>
+                            <p>项目地址：
+                                <a href="https://github.com/deepforge-dev/deepforge">https://github.com/deepforge-dev/deepforge</a>
+                            </p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+.box{
+  margin: auto;
+  background-color: black;
+  height: 6000px;
+
+}
+.nav{
+  font-size: 20px;
+}
+.demo1{
+  background-image: url(image/Marvel/title.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  width: 1500px;
+  height: 600px;
+  padding-top: 150px;
+  margin-top: -50px;
+  font-size: 50px;
+  font-weight: bolder;
+  font-style: italic;
+  font-weight:lighter;
+  font-family:fantasy;
+  text-align: left;
+  text-indent: 1em;
+  line-height:300px;
+}
+.demo2{
+
+  text-align: center;
+  border-radius: 50%;
+}
+.modal-title{
+
+  color:black;
+  font-family:sans-serif;
+  font-weight: bold;
+}
+.modal-body{
+
+   color:black;
+   font-size:25px;
+   font-family:serif;
+   font-style: normal;
+   line-height:35px;
+}
+.png{
+  margin-top:-1370px;
+  width: 1000px;
+  height: 1500px;
+}
+.Dl{
+   position: relative;
+  z-index: 2;
+  margin-top: -900px;
+  margin-left: 50px;
+  background-color: transparent;
+  width: 1000px;
+  height:1000px;
+  font-size:34px;
+  line-height: 40px;
+  text-indent: 41em;
+  color: white;
+  font-family: monospace;
+
+}
+
+
+.word{
+  font-size:34px;
+  line-height: 40px;
+  text-indent: 41em;
+  color: white;
+  font-family: monospace;
+}
