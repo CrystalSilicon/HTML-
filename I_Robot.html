@@ -2,17 +2,34 @@
 <html>
 <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
         <title>I Robot</title>
-        <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/I, Robot.css" rel="stylesheet" type="text/css">
 </head>
 <body>
+	<ul class="nav nav-tabs">
+        <li><a href="Marvel.html">Marvel</a></li>
+        <li class="active"><a href="I_Robot.html">I, Robot</a></li>
+        <li><a href="Her.html">Her</a></li>
+        <li><a href="The_Matrix.html">The Matrix</a></li>
+    </ul>
+	<ul class="breadcrumb">
+        <li><a href="index.html">Home</a></li>
+        <li class="active">I, Robot</li>
+    </ul>
         <div id="textPart">
             <div id="specificPart">
                 <div id="machineLearningDemo">
-                    <div id="machineLearningDemoTitle">
-                         <h3>I ROBOT</h3>
+                    <div id="bgm">
+                        <audio src="bgm/MainTitles-CharlieClouser.mp3" autoplay="autoplay" loop="loop" controls="controls">
+                            Your browser does not support the audio tag.
+                        </audio>
                     </div>
+                    <div id="machineLearningDemoTitle">
+                         <h1>I, ROBOT</h1>
+                    </div>
+
                         <ul>
                             <li>
                                 <div class="demoTitle">
@@ -85,12 +102,14 @@
                                             在人类看来，无疑就是监禁，以此所呼之欲出的是人类本身才是人类最大敌人的反乌托邦主义，为人以深刻的内
                                             在沉思。
                                     </p>
-
                                 </div>
                             </li>
                         </ul>
                     </div>
               </div>
          </div>
+         <div id=footer>Copyright@I, Robot.B612</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
 </body>
 </html>

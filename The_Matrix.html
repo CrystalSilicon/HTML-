@@ -2,8 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=0.5, maximum-scale=2.0, user-scalable=yes" />
     <title>The Matrix</title>
-    <link href="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
     <link href="css/The Matrix.css" rel="stylesheet" type="text/css">
 </head>
 <body>
@@ -11,30 +12,37 @@
         <li><a href="Marvel.html">Marvel</a></li>
         <li><a href="I_Robot.html">I, Robot</a></li>
         <li><a href="Her.html">Her</a></li>
-        <li class="active"><a href="The Matrix.html">The Matrix</a></li>
+        <li class="active"><a href="The_Matrix.html">The Matrix</a></li>
     </ul>
     <ul class="breadcrumb">
         <li><a href="index.html">Home</a></li>
         <li class="active">The Matrix</li>
     </ul>
-    <div id="plotModal">
-        <button id="movieTitle" class="btn-link" data-toggle="modal" data-target="#plot">The Matrix</button>
-        <div class="modal fade" id="plot" tabindex="-1" role="dialog" aria-labelledby="plotLabel" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                        <h4 class="modal-title" id="plotLabel">剧情简介</h4>
-                    </div>
-                    <div class="modal-body">
-                        <p>
-                            在矩阵中生活的一名年轻的网络黑客尼奥发现，看似正常的现实世界实际上似乎被某种力量控制着，尼奥便在网络上调查此事。
-                            而在现实中生活的人类反抗组织的船长墨菲斯，也一直在矩阵中寻找传说的救世主，就这样在人类反抗组织成员崔妮蒂的指引下，两人见面了，
-                            尼奥也在墨菲斯的指引下，回到了真正的现实中，逃离了矩阵，这才了解到，原来他一直活在虚拟世界当中 。
-                        </p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+    <div id="top">
+        <div id="bgm">
+            <audio src="bgm/Rob Dougan - Clubbed To Death (Kurayamino Mix) - remix.mp3" autoplay="autoplay" loop="loop" controls="controls">
+                Your browser does not support the audio tag.
+            </audio>
+        </div>
+        <div id="plotModal">
+            <button id="movieTitle" class="btn-link" data-toggle="modal" data-target="#plot">The Matrix</button>
+            <div class="modal fade" id="plot" tabindex="-1" role="dialog" aria-labelledby="plotLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                            <h4 class="modal-title" id="plotLabel">剧情简介</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                在矩阵中生活的一名年轻的网络黑客尼奥发现，看似正常的现实世界实际上似乎被某种力量控制着，尼奥便在网络上调查此事。
+                                而在现实中生活的人类反抗组织的船长墨菲斯，也一直在矩阵中寻找传说的救世主，就这样在人类反抗组织成员崔妮蒂的指引下，两人见面了，
+                                尼奥也在墨菲斯的指引下，回到了真正的现实中，逃离了矩阵，这才了解到，原来他一直活在虚拟世界当中 。
+                            </p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -224,7 +232,8 @@
             </div>
         </div>
     </div>
-    <script src="https://cdn.staticfile.org/jquery/2.1.1/jquery.min.js"></script>
-    <script src="https://cdn.staticfile.org/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <div id=footer>Copyright@The Matrix.B612</div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 </html>

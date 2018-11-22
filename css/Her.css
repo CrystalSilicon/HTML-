@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+    color:white;
+}
+#bgm{
+    float:right;
+}
+#header {
+    background-color:#ff6173;
+    color:#d1cad1;
+    text-align:left;
+    height:60px;
+    padding:5px;
+    margin-top:10px;
+}
+#plotModal{
+    float:left;
+    width:427px;
+    height:150px;
+    background-color: black;
+}
+#movieTitle{
+    width:100%;
+    height:100%;
+}
+#movieTitle img{
+    width:100%;
+    height:100%;
+}
+.modal{
+    color: black;
+}
+#main {
+    background-color:#f9dae0;
+    width: 1300px;
+    height:800px;
+
+}
+#lside{
+    background-color:#f9dae0 ;
+    border:5px solid solid solid none white;
+}
+
+    .four{
+        width: 350px;
+        height: 350px;
+        background-color: #f9dae0;
+        float: left;
+        margin: 20px;
+
+    }
+    #para{
+        text-indent: 20px;
+        color: black;
+        font-family: 微软雅黑;
+        margin:25px;
+        font-size: 18px;
+
+    }
+#footer{
+    background-color:#d1cad1;
+    color:#ff6173;
+    clear:both;
+    text-align:center;
+    height:50px;
+    padding:5px;
+    font-size: 20px;
+}

@@ -42,6 +42,7 @@ body{
 }
 #top{
     color: white;
+    margin-left: 30px;
     width:1000px;
     height:200px;
 }
@@ -58,9 +59,17 @@ body{
 }
 #title{
     float:left;
+    height:150px;
     margin-top:20px;
-    padding-left: 100px;
+    padding-left: 70px;
     font-size: 40px;
+    background-image: url(../image/index/title.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+#bgm{
+    float:right;
 }
 #knowledge{
 	width: 100%;
@@ -108,10 +117,10 @@ body{
 }
 .bookPage img{
 	position: absolute;
-	top: 150px;
+	top: 160px;
 	left: 50px;
 	display: inline-block;
-	width: 400px;
+	width: 380px;
 }
 .bookWord{
 	position: absolute;
@@ -209,4 +218,11 @@ body{
 	right: 0;
 	font-size: 20px!important;
 	line-height: 30px;
+}
+#footer{
+    color: white;
+    text-align:center;
+    height:50px;
+    padding:5px;
+    font-size: 20px;
 }

@@ -1,0 +1,350 @@
+body{
+  color:white;
+  background-color:black;
+}
+
+.demo1{
+  color:white;
+  background-image: url(title.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  width: 1500px;
+  height: 600px;
+  padding-top: 150px;
+  margin-top: -50px;
+  font-size: 50px;
+  font-weight: bolder;
+  font-style: italic;
+  font-weight:lighter;
+  font-family:fantasy;
+  text-align: left;
+  text-indent: 0em;
+  line-height:300px;
+
+}
+button.demo2-btn{
+    background: transparent;
+    border:none;
+}
+.demo2{
+  text-align: center;
+  border-radius: 50%;
+
+}
+.modal-title{
+  color:black;
+  font-family:sans-serif;
+  font-weight: bold;
+}
+.modal-body{
+
+   color:black;
+   font-size:25px;
+   font-family:serif;
+   font-style: normal;
+   line-height:35px;
+   line-height: height;
+   text-align: center;
+}
+
+
+
+.media{
+    margin-top:-70px;
+}
+.gif img{
+    width:600px;
+    height:1000px;
+}
+
+.introduction{
+  float: right;
+
+  margin-top: 50px;
+  padding-top: 150px;
+  padding-right:50px;
+  padding-left: 50px;
+
+  background-image: url(dialog.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+
+
+  width: 1500px;
+  height:300px;
+  font-size:45px;
+  text-indent: 7em;
+
+  color: white;
+  font-family:sans-serif;
+  font-weight: bolder;
+
+}
+.Bg{
+    width:700px;
+    height:700px;
+    margin-top:500px;
+    margin-left:50px;
+}
+.Bg img{
+    width:100%;
+    height:100%;
+}
+.point{
+  padding: 0px;
+  margin-top:-450px;
+  text-indent: 55em;
+
+
+}
+.png{
+
+  margin-top:-1370px;
+  height: 1500px;
+}
+.Dl{
+  float:right;
+  margin-top: -400px;
+  padding-top: 150px;
+  padding-right:50px;
+  padding-left: 50px;
+  background-image: url(Dial.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  width: 550px;
+  height:600px;
+  font-size:30px;
+  line-height: 40px;
+  color: white;
+  font-family: monospace;
+
+
+}
+
+
+.word{
+  font-size:34px;
+  line-height: 40px;
+  text-indent: 41em;
+  color: white;
+  font-family: monospace;
+}
+.media2{
+  margin-top: -700px;
+}
+#myCarousel{
+  width: 700px;
+  height: 400px;
+  margin-left: 100px;
+
+}
+
+.left{
+  margin-left:-100px;
+}
+
+.Bg2{
+    width:700px;
+    height:700px;
+    margin-top:500px;
+    margin-left:50px;
+}
+.Bg2 img{
+  width:700px;
+  height:750px;
+  margin-top: -1480px;
+}
+
+.point2{
+  padding: 0px;
+  margin-top:-1500px;
+  text-indent: 56em;
+
+
+}
+.Dl2{
+
+  float:right;
+  margin-top: -1000px;
+  padding-top: 150px;
+  padding-right:50px;
+  padding-left: 50px;
+  background-image: url(Dial.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-color: transparent;
+  width: 550px;
+  height:600px;
+  font-size:30px;
+  line-height: 40px;
+  color: black;
+  font-family:monospace;
+
+
+}
+ .panel-heading{
+  color:white;
+  background-color:black;
+  font-family:cursive
+}
+.media3{
+    margin-top:-370px;
+}
+.gif2 img{
+    width:620px;
+    height:520px;
+}
+
+
+
+.Bg3{
+    width:700px;
+    height:700px;
+    margin-top:475px;
+    margin-left:50px;
+}
+.Bg3 img{
+  width:700px;
+  height:720px;
+  margin-top: -1500px;
+}
+.point3{
+  padding: 0px;
+  margin-top:-1560px;
+  text-indent: 56em;
+
+
+}
+.Dl3{
+  float:right;
+  margin-top: -400px;
+  padding-top: 150px;
+  padding-right:50px;
+  padding-left: 50px;
+  background-image: url(Dial.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  width: 550px;
+  height:600px;
+  font-size:30px;
+  line-height: 40px;
+  color: white;
+  font-family: monospace;
+
+
+}
+
+.analysis{
+  float: right;
+  margin-top: -470px;
+  padding-top: 150px;
+  padding-right:50px;
+  padding-left: 50px;
+
+  background-image: url(dialog.png);
+  background-repeat: no-repeat;
+  background-size:contain;
+  background-position: center;
+
+
+  width: 1500px;
+  height:300px;
+  font-size:50px;
+  text-indent: 7.5em;
+
+  color: white;
+  font-family:sans-serif;
+  font-weight: bolder;
+}
+.Bg4{
+    background-image: url(frame2.png);
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    width:1400px;
+    height:700px;
+    margin-top:-150px;
+    margin-left:50px;
+
+}
+.Bg4 img{
+  width:1000px;
+  height:700px;
+  margin-top: -1000px;
+}
+
+.words{
+
+  margin-top: -90px;
+  padding-top: 200px;
+  padding-right:250px;
+  padding-left: 250px;
+  line-height: height;
+  position: center;
+  width: 1400px;
+  height:600px;
+  font-size:26px;
+  line-height: 40px;
+  color: white;
+  font-family:sans-serif;
+
+}
+.ico{
+  float: left;
+  margin-top:-800px;
+  width: 300px;
+  height: 300px;
+}
+.ico img{
+  float: left;
+  width: 300px;
+  height: 300px;
+}
+
+.frame4{
+  margin-top: -40px;
+  float: right;
+  width: 1500px;
+  height: 300px;
+
+}
+.frame4 img{
+  float: right;
+  width: 1500px;
+  height: 300px;
+}
+.top1{
+
+  margin-top:150px;
+  background-image: url(top-city.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:contain;
+  width: 1500px;
+  height: 280px;
+  line-height: 200px;
+  font-size: 70px;
+  font-style:normal;
+  font-family:sans-serif;
+
+  color: white;
+  text-align: center;
+
+}
+.bottom1{
+  margin-top: -20px;
+  background-image: url(bottom-city.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:contain;
+  width: 1500px;
+  height: 300px;
+
+
+}
+.btn-default{
+  font-family: sans-serif;
+
+}

@@ -1,3 +1,7 @@
+body{
+    background-color: black;
+    color:white;
+}
 div#plotModal{
     margin-top:-20px;
     margin-left:30px;
@@ -20,6 +24,9 @@ button#movieTitle:hover{
 }
 button#movieTitle:focus{
     outline: none;
+}
+div#bgm{
+    float:right;
 }
 div#posterPart{
     margin:auto;
@@ -174,7 +181,10 @@ div.demoIntro{
     background-size: cover;
     background-repeat: no-repeat;
 }
-body{
-    background-color: black;
-    color:white;
+#footer{
+    float:left;
+    text-align:center;
+    height:50px;
+    width:1300px;
+    font-size: 20px;
 }
